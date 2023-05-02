@@ -1,0 +1,15 @@
+public class Sumwhile
+{
+    static int n=8;
+    static int i=0;
+    static int sum;
+    public static void main(String [] args)
+    {
+        while (i < n)
+        {
+            sum += i;
+            i++;
+        }
+        System.out.println(sum);
+    }
+    }
